@@ -4,7 +4,7 @@ footer: false
 
 # Introduction {#introduction}
 
-:::info You are reading the documentation for Vue 3!
+:::danger You are reading the documentation for Vue 3!
 
 - Vue 2 support will end on Dec 31, 2023. Learn more about [Vue 2 Extended LTS](https://v2.vuejs.org/lts/).
 - Vue 2 documentation has been moved to [v2.vuejs.org](https://v2.vuejs.org/).
@@ -28,11 +28,11 @@ footer: false
 
 Vue (pronounced /vjuː/, like **view**) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
 
-Here is a minimal example:
+Here is a minimal example(这是一个 demo):
 
 <div class="options-api">
 
-```js
+```jsx
 import { createApp } from 'vue'
 
 createApp({
@@ -224,6 +224,10 @@ function increment() {
   count.value++
 }
 
+const addCrement = () => {
+  console.log(count.value)
+  count.value++
+}
 // lifecycle hooks
 onMounted(() => {
   console.log(`The initial count is ${count.value}.`)
@@ -231,7 +235,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <button @click="increment">Count is: {{ count }}</button>
+  <button @click="addCrement">Count is: {{ count }}</button>
 </template>
 ```
 
