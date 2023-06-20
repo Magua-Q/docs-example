@@ -25,7 +25,7 @@ onMounted(async () => {
     <p class="actions">
       <VueMasteryModal />
       <a class="get-started" href="/guide/introduction.html">
-        Get Started
+        快速开始
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ onMounted(async () => {
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html">Install</a>
+      <a class="setup" href="/guide/quick-start.html">下载</a>
     </p>
   </section>
 

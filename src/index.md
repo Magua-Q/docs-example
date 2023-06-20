@@ -1,6 +1,6 @@
 ---
-page: true
-title: Vue.js - The Progressive JavaScript Framework
+page: false
+title: Vue.js - The Progressive JavaScript Framework 测试
 ---
 
 <script setup>
